@@ -1,21 +1,26 @@
 {
-    "name": "jadeify",
-    "description": "A browserify transform for turning .jade files into template functions",
-    "keywords": ["browserify", "jade", "templates", "templating", "transform"],
-    "version": "2.1.1",
-    "author": "Domenic Denicola <domenic@domenicdenicola.com> (http://domenic.me)",
-    "license": "WTFPL",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/domenic/jadeify.git"
-    },
-    "bugs": "https://github.com/domenic/jadeify/issues",
-    "main": "lib/jadeify.js",
-    "scripts": {
-        "test": "mocha",
-        "lint": "jshint lib"
-    },
-    "dependencies": {
+  "name": "devnul",
+  "version": "0.0.1",
+  "description": "my private junk repo",
+  "main": "test.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-happy-hippo/devnul.git"
+  },
+  "keywords": [
+    "junk"
+  ],
+  "author": "the-happy-hippo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/the-happy-hippo/devnul/issues"
+  },
+  "homepage": "https://github.com/the-happy-hippo/devnul",
+
+  "dependencies": {
         "through": "2.x"
     },
     "peerDependencies": {
@@ -23,10 +28,5 @@
     },
     "devDependencies": {
         "jade": "1.x",
-        "concat-stream": "1.x",
-        "jshint": "2.x",
-        "jsdom": "0.8.x",
-        "mocha": "1.16.x"
     }
 }
-

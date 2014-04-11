@@ -1,0 +1,32 @@
+{
+    "name": "jadeify",
+    "description": "A browserify transform for turning .jade files into template functions",
+    "keywords": ["browserify", "jade", "templates", "templating", "transform"],
+    "version": "2.1.1",
+    "author": "Domenic Denicola <domenic@domenicdenicola.com> (http://domenic.me)",
+    "license": "WTFPL",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/domenic/jadeify.git"
+    },
+    "bugs": "https://github.com/domenic/jadeify/issues",
+    "main": "lib/jadeify.js",
+    "scripts": {
+        "test": "mocha",
+        "lint": "jshint lib"
+    },
+    "dependencies": {
+        "through": "2.x"
+    },
+    "peerDependencies": {
+        "jade": ">= 0.31.1 < 2",
+    },
+    "devDependencies": {
+        "jade": "1.x",
+        "concat-stream": "1.x",
+        "jshint": "2.x",
+        "jsdom": "0.8.x",
+        "mocha": "1.16.x"
+    }
+}
+

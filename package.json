@@ -19,14 +19,7 @@
     "url": "https://github.com/the-happy-hippo/devnul/issues"
   },
   "homepage": "https://github.com/the-happy-hippo/devnul",
-
   "dependencies": {
-        "through": "2.x"
-    },
-    "peerDependencies": {
-        "jade": ">= 0.31.1 < 2",
-    },
-    "devDependencies": {
-        "jade": "1.x",
-    }
+    "jade": ">0.31.1"
+  }
 }

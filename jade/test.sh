@@ -1,3 +1,2 @@
-pushd jade
-jade demo.jade
-jade dynamicscript.jade
+jade jade/demo.jade
+jade jade/dynamicscript.jade
